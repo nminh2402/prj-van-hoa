@@ -50,10 +50,6 @@ prj-van-hoa/
 ├── package.json                                 # Cấu hình Root Monorepo & các script khởi chạy workspace
 ├── README.md                                    # Tài liệu tổng quan kiến trúc, công nghệ và hướng dẫn sử dụng
 ├── generate_docs.js                             # Script tự động tạo tài liệu Microsoft Word (.docx)
-├── Tai_Lieu_Giai_Thich_Ma_Nguon.docx            # File tài liệu Word giải thích chi tiết ý nghĩa từng file code
-│
-├── docs/                                        # Thư mục chứa tài liệu hướng dẫn và đặc tả kỹ thuật
-│   └── Giai_Thich_Ma_Nguon.md                   # Bản Markdown giải thích chi tiết toàn bộ file trong dự án
 │
 ├── shared/                                      # [MODULE DÙNG CHUNG] Types & DTOs cho Backend và Mobile
 │   ├── package.json                             # Cấu hình npm package @prj-van-hoa/shared
