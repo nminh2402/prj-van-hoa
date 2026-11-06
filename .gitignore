@@ -1,0 +1,60 @@
+# Node / Dependencies
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+serviceAccountKey.json
+*serviceAccountKey*.json
+!serviceAccountKey.example.json
+*.pem
+*.key
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+.cxx/
+*.bundle
+
+# Mobile (React Native / iOS / Android)
+.gradle/
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/.cxx/
+**/android/local.properties
+local.properties
+**/ios/Pods/
+**/ios/build/
+*.ipa
+*.apk
+*.aab
+
+# AI / Python
+venv/
+.venv/
+**/venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.pyc
+*.pyo
+*.pt
+*.onnx
+weights/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

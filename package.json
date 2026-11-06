@@ -1,0 +1,31 @@
+{
+  "name": "prj-van-hoa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dự án Nền tảng Di sản Văn hóa - Mobile App (React Native), Backend (Node.js/Express + Firebase), và AI Vision (YOLO)",
+  "workspaces": [
+    "shared",
+    "backend"
+  ],
+  "scripts": {
+    "backend:dev": "npm run --prefix backend dev",
+    "backend:build": "npm run --prefix backend build",
+    "mobile:start": "npm run --prefix mobile start",
+    "mobile:android": "npm run --prefix mobile android",
+    "mobile:ios": "npm run --prefix mobile ios"
+  },
+  "keywords": [
+    "culture",
+    "heritage",
+    "react-native",
+    "express",
+    "firebase",
+    "yolo",
+    "audio-guide"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docx": "^9.15.0"
+  }
+}
